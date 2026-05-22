@@ -16,11 +16,11 @@ add_apt_repository() {
 }
 
 # Bring the base system up to date before installing new packages.
-echo "🔄 Updating system..."
+echo "Updating system..."
 sudo apt update && sudo apt upgrade -y
 
 # Install the core utilities required by the rest of the setup.
-echo "📦 Installing essential packages..." 
+echo "Installing essential packages..."
 sudo apt install -y \
     build-essential \
     git \
